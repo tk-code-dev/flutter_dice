@@ -9,11 +9,13 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.blueAccent,
         appBar: AppBar(
-          title: Text(
-            'Dice',
-            style: GoogleFonts.spaceMono(
-              textStyle: TextStyle(
-                  color: Colors.white, letterSpacing: 5.0, fontSize: 40),
+          title: Center(
+            child: Text(
+              'Dice',
+              style: GoogleFonts.spaceMono(
+                textStyle: TextStyle(
+                    color: Colors.white, letterSpacing: 5.0, fontSize: 40),
+              ),
             ),
           ),
           backgroundColor: Colors.indigo,
